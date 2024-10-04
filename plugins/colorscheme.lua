@@ -2,7 +2,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oxocarbon",
+      colorscheme = "kanagawa-lotus",
     },
   },
   {
@@ -19,5 +19,17 @@ return {
     "sainnhe/everforest",
     config = function() end,
     opts = {everforest_background = "medium"},
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    config = function() end,
+    opts = {
+      transparent = false,
+    },
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    config = function() end,
+    opts = {},
   },
 }
